@@ -33,6 +33,8 @@ fn main() {
     println!("slice sv = {:?}", sv);
 
     //Strings
-    let myString = String::from("My string");
-    println!("myString = {}", myString);
+    let my_string = String::from("My string");
+    println!("my_string = {}", my_string);
+    let my_second_string = "My Secodn String".to_string();
+    println!("my_second_string = {}", my_second_string);
 }
