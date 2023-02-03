@@ -37,4 +37,13 @@ fn main() {
     println!("my_string = {}", my_string);
     let my_second_string = "My Secodn String".to_string();
     println!("my_second_string = {}", my_second_string);
+
+    if !my_string.ends_with("ing") {
+        println!("NO");
+    } else {
+        println!("YES");
+    }
+
+    let my_uppercased_string = my_string.to_uppercase();
+    println!("my_uppercased_string {}", my_uppercased_string);
 }
