@@ -49,8 +49,21 @@ fn main() {
 
     let my_new_uppercase_from_str = manipulate_str(my_second_string);
     println!("my_new_uppercase_from_str {}", my_new_uppercase_from_str);
+
+    //
+    let val1 = 5;
+    let val2 = 2;
+    let ans = val1 % val2;
+    println!("{}", ans);
+
+    let mut my_vec = vec![2, 4, 6, 8, 10];
+    println!("my_vec = {:?}", my_vec);
+    my_vec.pop();
+    my_vec.push(12);
+    println!("my_vec = {:?}", my_vec);
 }
 
+// return new string
 fn manipulate_str(str: String) -> String {
     return str.to_uppercase();
 }
