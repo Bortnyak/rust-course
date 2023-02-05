@@ -37,3 +37,7 @@ fn is_first_eq_one(val: &Vec<i32>) -> bool {
 fn add_15_to_vec(val: &mut Vec<i32>) {
     val.push(15)
 }
+
+fn add_two(val: i8) -> i8 {
+    val + 2
+}
